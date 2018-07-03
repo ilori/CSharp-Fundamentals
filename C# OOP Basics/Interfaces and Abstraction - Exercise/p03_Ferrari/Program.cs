@@ -1,0 +1,13 @@
+﻿using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        var driver = new Driver(Console.ReadLine());
+
+        ICar ferrari = new Ferrari(driver);
+
+        Console.WriteLine(ferrari);
+    }
+}
